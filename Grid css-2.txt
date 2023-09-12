@@ -1,0 +1,196 @@
+   <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Nesciunt Mete</h3>
+                </a>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Eosle Commodi</h3>
+                </a>
+                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Ledo Markt</h3>
+                </a>
+                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Asperiores Commodit</h3>
+                </a>
+                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Velit Doloremque</h3>
+                </a>
+                <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Dolori Architecto</h3>
+                </a>
+                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section>
+    
+    
+    css
+    
+    /*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.services .img img {
+  transition: 0.6s;
+}
+
+.services .details {
+  padding: 50px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  background: var(--color-white);
+  position: relative;
+  background: rgba(var(--color-white-rgb), 0.9);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px rgba(var(--color-black-rgb), 0.1);
+}
+
+.services .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: var(--color-primary);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: var(--color-white);
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid var(--color-white);
+}
+
+.services .details h3 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .details p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item:hover .details h3 {
+  color: var(--color-primary);
+}
+
+.services .service-item:hover .details .icon {
+  background: var(--color-white);
+  border: 2px solid var(--color-primary);
+}
+
+.services .service-item:hover .details .icon i {
+  color: var(--color-primary);
+}
+
+.services .service-item:hover .img img {
+  transform: scale(1.2);
+}
